@@ -1,0 +1,45 @@
+
+Klasa: Ksiazka
+
+Stan:
+- tytul
+- autor
+- isbn
+- rokWydania
+
+Odpowiedzialnosci:
+- przechowywanie informacji o danej ksiazce
+
+
+
+
+Klasa: Czytelnik
+
+Stan:
+- imie
+- nazwisko
+- nrKartyBibliotecznej
+
+Odpowiedzialnosci:
+- wypozyczenie ksiazki
+
+
+
+Klasa: Wypozyczenie
+
+Stan:
+- ksiazka
+- czytelnik
+- dataWypozyczenia
+- terminZwrotu
+
+Odpowiedzialnosci:
+- Pamieta kto wypozyczyl
+- Pamieta jaka ksiazke wypozyczyl
+- Pamieta date wypozyczenia i termin zwrotu
+
+
+
+Zaleznosci:
+Wypozyczenie - ksiazka
+Wypozyczenie - Czytelnik
