@@ -1,0 +1,60 @@
+System rezerwacji hotelowej
+
+Klasa: Pokoj
+
+Stan:
+- numer pokoju
+- cena za dobe
+- typ pokoju (jednoosobowy, dwuosobowy, apartament)
+- stan dostepnosci (dostepny, wyłączony z użytku)
+
+Odpowiedzialnosci
+- Udostepnianie informacji o typie i cenie
+- udostepnienie stanu dostepnosci
+
+Klasa: Gosc
+
+Stan:
+- Imie i nazwisko
+- Numer telefonu
+- numer dokumentu tozsamosci
+
+Odpowiedzialnosci:
+- Przechowywanie danych kontaktowych i identyfikujacych
+- udostepnianie danych potrzebnych do wystawienia rachunku
+
+
+Klasa: Rezerwacja
+
+Stan:
+- Data zameldowania
+- data wymeldowania
+- przypisany gość
+- przypisany pokoj
+- status rezerwacji (złożona, anulowana, zrealizowana)
+
+Odpowiedzialnosci:
+- Wyliczenie calkowitego kosztu pobytu
+- Weryfikacja czy dany termin nie koliduje z innymi
+- zmiana statusu rezerwacji
+
+
+Klasa Hotel:
+
+Stan:
+- nazwa hotelu
+- lista pokojów
+- lista rezerwacji
+
+Odpowiedzialnosci:
+- sprawdzanie dostepnosci pokojow
+- tworzenie rezerwacji
+- odwołanie rezerwacji
+
+
+
+
+Rezerwacja powinna wiedziec o istnieniu pokoju i goscia
+Hotel powinien wiedziec o istnieniu pokojow i rezerwacji
+
+Pomijam dokladne dane techniczne pokoju oraz dane osobiste goscia ktore nie są potrzebne do systemu rezerwacji

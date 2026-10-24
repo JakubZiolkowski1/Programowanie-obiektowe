@@ -1,0 +1,15 @@
+System wypozyczalni samochodow
+- Marka i model samochodu
+- numer rejestracyjny
+- cena za dzien
+
+Gra wyścigowa
+- Marka i model samochodu
+- Maksymalna predkosc
+
+System warsztatu samochodowego
+- numer rejestracyjny
+- stan (w trakcie naprawy, naprawiony)
+
+Dlaczego nie istnieje jedna „poprawna” klasa Samochod pasująca do każdego programu?
+Bo w roznych systemach istotne sa inne informacje o samochodzie
