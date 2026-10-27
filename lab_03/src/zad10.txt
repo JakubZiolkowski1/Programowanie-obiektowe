@@ -1,0 +1,21 @@
+1. studentName w klasie Student,
+instancyjny bo opisuje obiekt
+
+2. numberOfStudents w klasie Student,
+statyczny bo liczba studentów nalezy do klasy
+
+3. PI w klasie matematycznej,
+statyczny bo  jest to stała matematyczna niezalezna od zadnego obiektu
+
+4. balance w klasie BankAccount,
+instancyjne bo jest zalezne od danej instancji konta
+
+5. calculateVat(double price) w bezstanowej klasie pomocniczej,
+statyczne bo bezstanowa klasa nie potrzebuje instancji
+
+6. carMileage w klasie Car,
+instancyjne bo jest zalezne od danej instancji samochodu
+
+7. MAX_LOGIN_ATTEMPTS w klasie LoginPolicy.
+statyczne bo jest to stała
+

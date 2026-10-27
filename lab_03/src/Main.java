@@ -37,8 +37,27 @@ public class Main {
         }
 
         System.out.println(Product.getNumberOfProducts());
-        new Product("produkt", 10); // IllegalStateException
+//        new Product("produkt", 10); // IllegalStateException
 
+        System.out.println("Zad 8");
+        System.out.println(StaticCalculator.add(1,2));
+        System.out.println(StaticCalculator.add(1,2,3));
+        System.out.println(StaticCalculator.add(0.1, 0.2));
+        System.out.println(StaticCalculator.getNumberOfOperations());
 
+        System.out.println("Zad 9");
+        InitializationDemo demo1 = new InitializationDemo("Demo1");
+        InitializationDemo demo2 = new InitializationDemo("Demon");
+
+        // Blok statyczny
+        // Blok instancyjny 1,
+        // Konstruktor 1
+        // Blok instancyjny 2
+        // Konstruktor 2
+
+        System.out.println("Zadanie 11");
+        User user1 = new User("superuser", "123", 20);
+        user1.showUser();
+        System.out.println(user1.passwordMatch("123"));
     }
 }
